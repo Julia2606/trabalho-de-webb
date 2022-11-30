@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">   
+</head>
+
+<body>
+    <header class="center" id="acessibilidade">
+        <button name="Aumenta a letra" id="increase-font" title="Aumentar fonte">A +</button>
+        <button name="Diminui a letra" id="decrease-font" title="Diminuir fonte">A -</button>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="question-container" id="question">
+                <p>O número 1011111 em Hexadecimal é:</p>
+            </div>
+
+            <div class="option-container">
+                <button class="option" data-correto="false" id="op1">5C</button>
+                <button class="option" data-correto="false" id="op2">5E</button>
+                <button class="option" data-correto="true"  id="op3">5F</button>
+                <button class="option" data-correto="false" id="op4">57</button>
+            </div>
+
+            <div class="acoes">
+                <a class="next disabled" href="final.html">Próxima Pergunta</a>
+            </div>
+        </div>
+    </main>
+    <script src="javascript.js"></script>
+</body>
+</html>
+    
